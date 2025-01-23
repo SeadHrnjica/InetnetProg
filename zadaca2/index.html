@@ -1,0 +1,40 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Kalkulator</title>
+
+</head>
+<body>
+<h1>BMI Kalkulator</h1>
+
+<form id="bmiForm">
+    <label for="name">Ime:</label>
+    <input type="text" id="name">
+
+    <label for="height">Visina (cm):</label>
+    <input type="number" id="height" >
+
+    <label for="weight">Težina (kg):</label>
+    <input type="number" id="weight">
+
+    <button type="button" onclick="calculateBMI()">Izračunaj BMI</button>
+</form>
+
+<table id="bmiTable">
+    <tr>
+        <th>Ime</th>
+        <th>Visina (cm)</th>
+        <th>Težina (kg)</th>
+        <th>BMI</th>
+        <th>Kategorija</th>
+    </tr>
+
+</table>
+
+<script src="script.js">
+</script>
+</body>
+</html>
